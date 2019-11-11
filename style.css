@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+body {
+  background-image: url(img/img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  color: white;
+  font-size: 1rem;
+}
+#container {
+  position: relative;
+  width: 100%;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  padding: 0.3rem;
+}
+header {
+  min-height: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: tomato;
+  border: 2px solid black;
+}
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+#header-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin-right: 20px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  min-width: 15%;
+}
+h1 {
+  padding: 0.3rem;
+  margin-top: 0;
+}
+.repair-order h2 {
+  background-color: #c7c4bd;
+  width: 100%;
+  margin: 0;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  margin-top: 2rem;
+}
+label {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+}
+#submit {
+  width: 40%;
+  background-color: #339141;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  outline: none;
+}
+#submit:hover {
+  background-color: #71ed47;
+}
+#email {
+  width: 100%;
+  min-height: 1.5rem;
+}
+.video {
+  width: auto;
+  height: auto;
+  margin-top: 2rem;
+}
+@media (min-width: 600px) {
+  .video {
+    width: 560px;
+    height: 315px;
+  }
+}
+#repair {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2rem;
+}
+@media (max-width: 480px) {
+  #repair {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.repair-order {
+  background-color: blanchedalmond;
+  color: black;
+  width: calc(100% / 3);
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+}
+@media (max-width: 480px) {
+  .repair-order {
+    width: 80%;
+  }
+}
+#why-me li {
+  list-style-type: disc;
+  font-size: 1.5rem;
+}
+#contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+@media (max-width: 480px) {
+  #contact {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#facebook {
+  background-color: #4668b3;
+  width: 210px;
+  text-align: center;
+  height: 142px;
+}
+#facebook a {
+  display: block;
+  width: 210px;
+  height: 142px;
+}
+#email-contact {
+  background-color: #19bf45;
+  width: 210px;
+  text-align: center;
+  height: 142px;
+}
+#phone {
+  background-color: #f2ef35;
+  width: 210px;
+  text-align: center;
+  height: 142px;
+}
